@@ -202,7 +202,7 @@ h1 {
 .education-grid,
 .skill-grid,
 .project-card {
-  margin: 10px 30px 10px 2px;
+  margin: 10px 10px 10px 10px;
 }
 
 .edu-container:hover {
@@ -417,6 +417,7 @@ button[type="submit"]:hover {
 
   #Education{
     flex-direction: column;
+    padding: 20px;
 
   }
 
