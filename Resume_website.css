@@ -132,7 +132,7 @@ h1 {
     text-align: center;
     flex-direction: column;
     background-color: rgb(25, 29, 27);
-    margin-top: 60px;
+    margin-top: 30px;
     top: 50px;
     left: auto;
     right: 0px;
@@ -190,7 +190,7 @@ h1 {
 }
 
 .description {
-  font-size: 120%;
+  font-size: 150%;
   text-align: center;
   align-items: center;
   display: flex;
@@ -202,7 +202,7 @@ h1 {
 .education-grid,
 .skill-grid,
 .project-card {
-  margin: 20px 30px 10px 2px;
+  margin: 10px 30px 10px 2px;
 }
 
 .edu-container:hover {
@@ -254,7 +254,7 @@ h3 {
   max-width: 800px;
   border-radius: 3%;
   box-shadow: 10px 10px 30px rgba(75, 71, 71, 0.5);
-  margin: 50px;
+  margin: 10px;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 20px;
@@ -289,24 +289,31 @@ h1, h2, h3 {
 }
 
 .description{
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: clamp(2rem, 1.5vw, 1.2rem);
+}
+
+.contact-container {
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
   .description{
     flex-direction: column;
     font-size: clamp(1.5rem, 1.5vw, 1.2rem);
+    margin: 10px;
   }
-  .contact-container {
-    padding: 10px;
-  }
+  
 }
 #name {
-  padding: 0px 100px 0px 0px;
+  padding: 0px 10px 0px 0px;
 }
 
 #email {
-  padding: 0px 100px 0px 0px;
+  padding: 0px 10px 0px 0px;
+}
+
+#message {
+  padding: 0px 10px 0px 0px;
 }
 
 .name {
@@ -380,6 +387,10 @@ button[type="submit"]:hover {
     line-height: 1.5;
   }
 
+  .logo {
+    padding:0px;
+  }
+
   h1, h2, h3 {
     text-align: center;
     font-size: clamp(1.5rem, 2vw, 2.5rem);
@@ -398,14 +409,6 @@ button[type="submit"]:hover {
     border-radius: 50%;
   }
 
-  .education-grid,
-  .Skill-container,
-  .project-card,
-  .contact-container {
-    padding: 10px;
-    text-align: center;
-  }
-
   .education-card,
   .skill-category,
   .project-content {
@@ -422,8 +425,9 @@ button[type="submit"]:hover {
   .project-container{
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px;
+    padding: 10px ;
     width: 95%;
+    margin: 10px;
   }
 
   .contact-form input,
@@ -449,7 +453,7 @@ button[type="submit"]:hover {
   .project-container,
   .contact-container {
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     margin: 20px auto;
     width: 95%;
   }
